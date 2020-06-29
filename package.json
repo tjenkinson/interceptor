@@ -1,0 +1,52 @@
+{
+  "name": "@tjenkinson/interceptor",
+  "version": "0.0.1",
+  "description": "A library that helps with testing asynchronous function calls.",
+  "main": "dist/intercept.js",
+  "module": "dist/intercept.es.js",
+  "types": "dist/intercept.d.ts",
+  "keywords": [
+    "testing",
+    "asynchronous",
+    "callback",
+    "promise",
+    "onFullfill",
+    "onReject"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup --config rollup.config.js",
+    "watch": "rollup --config rollup.config.js --watch",
+    "prettier": "prettier --write .",
+    "lint": "prettier --check .",
+    "prepublishOnly": "npm run build && npm test",
+    "preversion": "npm run build && npm test",
+    "test": "jest"
+  },
+  "hooks": {
+    "pre-commit": "npm run prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjenkinson/interceptor.git"
+  },
+  "author": "Tom Jenkinson <tom@tjenkinson.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjenkinson/interceptor/issues"
+  },
+  "homepage": "https://github.com/tjenkinson/interceptor#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@types/jest": "^26.0.0",
+    "husky": "^4.2.5",
+    "infinite-queue": "^1.1.1",
+    "jest": "^25.5.4",
+    "prettier": "^2.0.5",
+    "rollup": "^2.7.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "ts-jest": "^25.5.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.8.3"
+  }
+}
