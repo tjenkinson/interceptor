@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40tjenkinson%2Finterceptor.svg)](https://badge.fury.io/js/%40tjenkinson%2Finterceptor)
+
 # Interceptor
 
 A library that helps with testing asynchronous function calls.
