@@ -8,10 +8,7 @@
   "keywords": [
     "testing",
     "asynchronous",
-    "callback",
-    "promise",
-    "onFullfill",
-    "onReject"
+    "callback"
   ],
   "scripts": {
     "build": "rm -rf dist && rollup --config rollup.config.js",
