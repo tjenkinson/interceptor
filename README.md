@@ -49,7 +49,7 @@ This example uses jest. Other frameworks are availble ;)
 ### Waiting for a function call
 
 ```ts
-import { intercept } from '@tjenkinson/intercept';
+import { intercept } from '@tjenkinson/interceptor';
 
 function doSomethingAsync(callback) {
   setTimeout(() => callback('it works'), 200);
