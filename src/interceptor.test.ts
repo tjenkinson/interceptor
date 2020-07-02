@@ -1,6 +1,6 @@
-import { intercept } from './intercept';
+import { intercept } from './interceptor';
 
-describe('Intercept', () => {
+describe('Interceptor', () => {
   it('holds back a call until next is called', async () => {
     const fn = jest.fn();
     const interceptor = intercept(fn);

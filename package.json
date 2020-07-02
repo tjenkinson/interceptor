@@ -2,9 +2,9 @@
   "name": "@tjenkinson/interceptor",
   "version": "1.0.0",
   "description": "A library that helps with testing asynchronous function calls.",
-  "main": "dist/intercept.js",
-  "module": "dist/intercept.es.js",
-  "types": "dist/intercept.d.ts",
+  "main": "dist/interceptor.js",
+  "module": "dist/interceptor.es.js",
+  "types": "dist/interceptor.d.ts",
   "keywords": [
     "testing",
     "asynchronous",

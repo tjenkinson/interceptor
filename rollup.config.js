@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  input: 'src/intercept.ts',
+  input: 'src/interceptor.ts',
   plugins: [typescript(), resolve(), commonjs()],
   onwarn: (e) => {
     throw new Error(e);
@@ -11,11 +11,11 @@ export default {
   output: [
     {
       name: 'StateManager',
-      file: 'dist/index.js',
+      file: 'dist/interceptor.js',
       format: 'umd',
     },
     {
-      file: 'dist/index.es.js',
+      file: 'dist/interceptor.es.js',
       format: 'es',
     },
   ],
