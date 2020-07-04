@@ -10,7 +10,7 @@ export default {
   },
   output: [
     {
-      name: 'StateManager',
+      name: 'Interceptor',
       file: 'dist/interceptor.js',
       format: 'umd',
     },
