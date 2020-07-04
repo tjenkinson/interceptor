@@ -1,6 +1,6 @@
 {
   "name": "@tjenkinson/interceptor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library that helps with testing asynchronous function calls.",
   "main": "dist/interceptor.js",
   "module": "dist/interceptor.es.js",
