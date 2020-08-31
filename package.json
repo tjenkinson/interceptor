@@ -34,7 +34,7 @@
   "homepage": "https://github.com/tjenkinson/interceptor#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "@types/jest": "^26.0.0",
     "husky": "^4.2.5",
     "infinite-queue": "^1.1.1",
