@@ -39,7 +39,7 @@
     "husky": "^4.2.5",
     "infinite-queue": "^1.1.1",
     "jest": "^25.5.4",
-    "prettier": "^2.0.5",
+    "prettier": "^3.1.1",
     "rollup": "^2.7.2",
     "rollup-plugin-typescript2": "^0.36.0",
     "ts-jest": "^25.5.1",
